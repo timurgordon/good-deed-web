@@ -1,9 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import SearchBar from '../SearchBar/SearchBar'
 import './ProjectsBar.css'
 
-
+/* Function that returns category selection buttons for projects navbar */
 function renderCategories() {
     return (
         <div className="category-container">
@@ -18,6 +16,10 @@ function renderCategories() {
     )
 }
 
+/* <ProjectsBar />
+* Bar with filtering, sorting and category selection functionality.
+* Rendered above project cards in <Projects /> for project navigation.
+*/
 export default function ProjectsBar() {
     return (
             <div className="bar">

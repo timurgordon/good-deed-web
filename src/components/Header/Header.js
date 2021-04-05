@@ -1,8 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import SearchBar from '../SearchBar/SearchBar'
 import './Header.css'
 
+
+/* <Header />
+* Dynamic (future) landing page header.
+* Displays title and description of selected good deed projects.
+*/ 
 export default function Header() {
     return (
         <div className="header-container">

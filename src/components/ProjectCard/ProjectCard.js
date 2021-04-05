@@ -1,6 +1,10 @@
 import React from 'react';
 import './ProjectCard.css'
 
+/* <ProjectsBar />
+* Takes in image, title, and location parameters.
+* Creates and returns project card with given parameters.
+*/
 export default function ProjectsBar(props) {
     return (
             <div className="card-container">
