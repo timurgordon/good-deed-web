@@ -25,12 +25,12 @@ Other Good Deed documentation like the Project Management Plan, System Requireme
 
 ## Make Targets
 
-prod:
+###prod:
 - In order to build this project, you need to run the Makefile for both frontend and backend components of this project.  
-tests: 
+###tests: 
 - Tests  will be executed through two ways. One, by visually checking deployed copy from Amazon Web Services (AWS). This will be carried through the AWS's Amplify service. If you need an access for that section please make a request. 
 - The other way to make tests is supported by the .yaml file and further tests are currently being developed. 
-dev_env:
+###dev_env:
 - This project uses AWS for deploying. Specifically through using Amplify, local development environments are integrated. On amplify there are two options to commit changes to. Developers can chose to deploy for staging or master branch of the project. 
-docs:
+###docs:
 - The documentation for the project will be automated as well. Since pydoc is not an option, the developers of this project are currently working on adding JSDoc or Docco, in order to create a .html file with the project components explained. 
