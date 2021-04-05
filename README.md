@@ -30,8 +30,8 @@ Other Good Deed documentation like the Project Management Plan, System Requireme
   - In order to build this project, you need to run the Makefile for both frontend and backend components of this project.  
 - tests: 
   - Tests  will be executed through two ways. One, by visually checking deployed copy from Amazon Web Services (AWS). This will be carried through the AWS's Amplify service.                                                        If you need an access for that section please make a request. 
-  - The other way to make tests is supported by the .yaml file and further tests are currently being developed. 
+  - The other way to make tests is supported by the Cypress. An example for the tests can be seen [here](https://github.com/timurgordon/good-deed-web/blob/master/cypress/integration/authenticator_spec.js). Cypress will help this project with the visual aid it provides. The test created through this platform will create videos of the test being performed. The previous example test has this [video](https://github.com/timurgordon/good-deed-web/blob/master/cypress/videos/authenticator_spec.js.mp4). 
 - dev_env:
   - This project uses AWS for deploying. Specifically through using Amplify, local development environments are integrated. On amplify there are two options to commit changes  to. Developers can chose to deploy for staging or master branch of the project. 
 - docs:
-  - The documentation for the project will be automated as well. Since pydoc is not an option, the developers of this project are currently working on adding JSDoc or Docco, in order to create a .html file with the project components explained. 
+  - The documentation for the project will be automated as well. For this purpose JSDoc is utilized in this project. The documentation will be created with every build under [this file] (https://github.com/timurgordon/good-deed-web/blob/master/docs/index.html)
