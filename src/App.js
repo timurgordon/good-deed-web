@@ -1,17 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
+import Landing from './pages/Landing/Landing'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <header>
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>We now have Auth! Good deed Testing3</h1>
-      </header>
-      <AmplifySignOut />
-    </div>
+    return (
+        <Router>
+
+            <Routes>
+                <Route path="/" element={<Landing />} />
+            </ Routes>
+
+
+            <AmplifySignOut />
+        </Router>
   );
 }
 
