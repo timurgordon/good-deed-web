@@ -34,4 +34,4 @@ Other Good Deed documentation like the Project Management Plan, System Requireme
 - dev_env:
   - This project uses AWS for deploying. Specifically through using Amplify, local development environments are integrated. On amplify there are two options to commit changes  to. Developers can chose to deploy for staging or master branch of the project. 
 - docs:
-  - The documentation for the project will be automated as well. For this purpose JSDoc is utilized in this project. The documentation will be created with every build under [this file] (https://github.com/timurgordon/good-deed-web/blob/master/docs/index.html)
+  - The documentation for the project will be automated as well. For this purpose JSDoc is utilized in this project. The documentation will be created with every build under [this file](https://github.com/timurgordon/good-deed-web/blob/master/docs/index.html)
