@@ -81,6 +81,10 @@ As the platform is under development, we've added authentication at the landing 
 ## Build file
 Our build file is stored in aws servers, as the backend build is initiated on the server side. The amplify.yml file is run continously and triggered by pushes to this repository. While the file in this directory is not used locally, it is included in the root directory for reference as ./amplify.yml.
 
+## Testing
+We use cypress to run tests. So far we only have one test, which tests the authentication function. The test is located in cypress/integration/authenticator_spec.js
+The test is run automatically by amplify.yml once the repository is updated. If a user can login to the platform, the test passes. A video recording of the test in action is created and stored in cypress/videos.
+
 ## Make Targets
 
 - prod:
