@@ -52,14 +52,14 @@ We've observed it working in firefox and chrome.
 
 Once pulled, Amplify CLI will prompt inputs for configuration. Input the following responses:
 
-Choose your default editor: (choose any)
-Choose type of app: Javascript
-Javascript framework: react
-Source directory path: src
-Distribution directory path: build
-Build command: npm run-script build
-Start command: npm run-script start
-Do you plan on modifying this backend: no.
+- Choose your default editor: (choose any)
+- Choose type of app: Javascript
+- Javascript framework: react
+- Source directory path: src
+- Distribution directory path: build
+- Build command: npm run-script build
+- Start command: npm run-script start
+- Do you plan on modifying this backend: no.
 
 After this, you should get the following success messaage, which means that the backend environment is locally set up and amplify is locally configured.
 "Added backend environment config object to your project."
