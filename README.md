@@ -23,8 +23,53 @@ Each user -- donor or developer -- has an account with their profile consisting 
 ## Documentation
 Other Good Deed documentation like the Project Management Plan, System Requirements Specification, and Pitch Presentation can be found [here](https://github.com/timurgordon/good-deed-web/tree/master/project-documents).
 
-## Make Targets
+## Local Setup
+ 
+Start by cloning this repository to your local directory.
+- git clone https://github.com/timurgordon/good-deed-web.git
 
+The following steps require npm to be installed in your computer.
+
+###Step 1: Install dependencies
+
+- npm install 
+installs dependencies such as cypress (for testing) and jsdoc(documentation) to node_modules from package.json
+
+- npm install -g @aws-amplify/cli
+installs Amplify Command Line Interface necessary to pull backend environment
+
+### Step 2: Pull backend environment from AWS
+
+- amplify pull --appId d165oymlwnu85 --envName master
+
+After running this command, which pulls the backend environment from aws, you will be prompted to login to the Admin UI.
+You should receive an email from amplify to set up your login credentials to access the backend resources for this project.
+
+Warning: the link displayed on the command line that pops up in your browser to prompt you to login to Admin UI doesn't work in safari.
+We've observed it working in firefox and chrome. 
+
+Once pulled, Amplify CLI will prompt inputs for configuration. Input the following responses:
+
+Choose your default editor: (choose any)
+Choose type of app: Javascript
+Javascript framework: react
+Source directory path: src
+Distribution directory path: build
+Build command: npm run-script build
+Start command: npm run-script start
+Do you plan on modifying this backend: no.
+
+After this, you should get the following success messaage, which means that the backend environment is locally set up and amplify is locally configured.
+"Added backend environment config object to your project."
+
+### Step 3: Deploy application on localhost
+This step requires a simple command: npm start
+Once run, the site will be deployed in your localhost and the browser will be launched.
+
+### Important: Current site information
+As the platform is under development, we've added authentication at the landing page. In order to view the current site, the user must register, verify their email, and sign in to the platform.
+
+## Make Targets
 
 - prod:
   - In order to build this project, you need to run the Makefile for both frontend and backend components of this project.  
