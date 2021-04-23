@@ -33,9 +33,11 @@ The following steps require npm to be installed in your computer.
 ### Step 1: Install dependencies
 
 - npm install 
+
 installs dependencies such as cypress (for testing) and jsdoc(documentation) to node_modules from package.json
 
 - npm install -g @aws-amplify/cli
+
 installs Amplify Command Line Interface necessary to pull backend environment
 
 ### Step 2: Pull backend environment from AWS
