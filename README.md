@@ -70,6 +70,9 @@ Once run, the site will be deployed in your localhost and the browser will be la
 ### Important: Current site information
 As the platform is under development, we've added authentication at the landing page. In order to view the current site, the user must register, verify their email, and sign in to the platform.
 
+## Build file
+Our build file is stored in aws servers, as the backend build is initiated on the server side. The amplify.yml file is run continously and triggered by pushes to this repository. While the file in this directory is not used locally, it is included in the root directory for reference as ./amplify.yml.
+
 ## Make Targets
 
 - prod:
