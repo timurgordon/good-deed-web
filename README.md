@@ -64,8 +64,14 @@ Once pulled, Amplify CLI will prompt inputs for configuration. Input the followi
 After this, you should get the following success messaage, which means that the backend environment is locally set up and amplify is locally configured.
 "Added backend environment config object to your project."
 
-### Step 3: Deploy application on localhost
-This step requires a simple command: npm start
+### Step 3: Create documentation and deploy application on localhost
+You can create documentation using JSDoc with:
+- npm run docs
+
+This will automatically create a docs directory with the documentation created as index.html using JSDocs library.
+
+To run the application:
+- npm start
 
 Once run, the site will be deployed in your localhost and the browser will be launched.
 
