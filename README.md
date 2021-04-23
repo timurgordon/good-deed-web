@@ -30,7 +30,7 @@ Start by cloning this repository to your local directory.
 
 The following steps require npm to be installed in your computer.
 
-###Step 1: Install dependencies
+### Step 1: Install dependencies
 
 - npm install 
 installs dependencies such as cypress (for testing) and jsdoc(documentation) to node_modules from package.json
