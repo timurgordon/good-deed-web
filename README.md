@@ -63,7 +63,8 @@ After this, you should get the following success messaage, which means that the 
 "Added backend environment config object to your project."
 
 ### Step 3: Deploy application on localhost
-This step requires a simple command: npm start
+This step requires a simple command
+npm start
 Once run, the site will be deployed in your localhost and the browser will be launched.
 
 ### Important: Current site information
