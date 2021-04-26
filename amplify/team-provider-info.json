@@ -1,4 +1,22 @@
 {
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gooddeedweb-master-133413-authRole",
+      "UnauthRoleArn": "arn:aws:iam::736933316195:role/amplify-gooddeedweb-master-133413-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::736933316195:role/amplify-gooddeedweb-master-133413-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-gooddeedweb-master-133413-deployment",
+      "UnauthRoleName": "amplify-gooddeedweb-master-133413-unauthRole",
+      "StackName": "amplify-gooddeedweb-master-133413",
+      "StackId": "arn:aws:cloudformation:us-east-1:736933316195:stack/amplify-gooddeedweb-master-133413/9f654a00-8ca5-11eb-869c-0ea3835b933d",
+      "AmplifyAppId": "d165oymlwnu85"
+    },
+    "categories": {
+      "auth": {
+        "gooddeedwebc66f179d": {}
+      }
+    }
+  },
   "staging": {
     "awscloudformation": {
       "AuthRoleName": "amplify-amplify44b3b6c870704-staging-141434-authRole",
