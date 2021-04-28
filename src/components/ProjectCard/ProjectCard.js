@@ -15,12 +15,21 @@ import PropTypes from "prop-types"
  * )
  */
 export default function ProjectCard(props) {
-    return (
-            <div className="card-container">
+    if (props.type == "small") {return (
+        <a href="/project-page"><div className="card-container-small">
+                <img className="card-image" src={props.image}/>
+                <div className="card-info">
+                <h4 className="card-title"> {props.title} </h4>
+                <p className="card-loocation"> {props.location} </p>
+                </div>
+            </div></a>
+    )}
+    else return (
+            <a href="/project-page"><div className="card-container">
                 <img className="card-image" src={props.image}/>
                 <h4 className="card-title"> {props.title} </h4>
                 <p className="card-loocation"> {props.location} </p>
-            </div>
+            </div></a>
     )
 }
 

@@ -1,0 +1,17 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 2% 2%;
+}
+
+.card-container-small {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  padding: 2% 2%;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+}

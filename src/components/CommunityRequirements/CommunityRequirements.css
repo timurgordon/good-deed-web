@@ -1,0 +1,6 @@
+.requirements-container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 2% 2%;
+}

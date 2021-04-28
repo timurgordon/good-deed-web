@@ -1,0 +1,7 @@
+.info-container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 2% 2%;
+  width: 40vw;
+}

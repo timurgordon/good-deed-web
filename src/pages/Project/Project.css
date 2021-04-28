@@ -1,0 +1,4 @@
+.community-layout {
+  display: flex;
+  flex-direction: row;
+}
