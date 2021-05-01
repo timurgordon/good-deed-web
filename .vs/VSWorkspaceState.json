@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\amplify\\backend\\api\\gooddeedweb",
+    "\\amplify\\backend\\api\\gooddeedweb\\resolvers",
+    "\\amplify\\backend\\api\\gooddeedweb\\stacks",
     "\\src",
-    "\\src\\graphql"
+    "\\src\\components",
+    "\\src\\components\\CommunityInfo",
+    "\\src\\components\\CommunityProjects",
+    "\\src\\pages\\Community",
+    "\\src\\pages\\Project"
   ],
   "SelectedNode": "\\src\\graphql",
   "PreviewInSolutionExplorer": false

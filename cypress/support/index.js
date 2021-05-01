@@ -15,6 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-
+// This is added for code coverage reports.
+import '@cypress/code-coverage/support'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
