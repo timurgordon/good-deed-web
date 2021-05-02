@@ -7,12 +7,12 @@ describe('Authenticator:', function() {
     describe('Sign In:', () => {
       it('allows a user to signin', () => {
         // Step 2: Take an action (Sign in)
-        cy.get(selectors.usernameInput).type("tbg252@nyu.edu");
-        cy.get(selectors.signInPasswordInput).type("dummyPassword");
+        cy.get(selectors.usernameInput).type("ku350@nyu.edu");
+        cy.get(selectors.signInPasswordInput).type("keremtestkerem");
         cy.get(selectors.signInSignInButton).contains('Sign In').click();
   
         // Step 3: Make an assertion (Check for sign-out text)
-          cy.get(selectors.signOutButton).contains('Sign Out');
+        cy.get(selectors.signOutButton).contains('Sign Out').click();
       });
     });
   

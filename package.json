@@ -48,5 +48,11 @@
     "@cypress/code-coverage": "^3.9.5",
     "cypress": "^6.9.1",
     "nyc": "^15.1.0"
+  },
+  "nyc": {
+    "all": true,
+    "include": [
+      "instrumented/**/*.js"
+    ]
   }
 }
