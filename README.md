@@ -88,7 +88,7 @@ The test is run automatically by amplify.yml once the repository is updated. If 
 ## Make Targets
 
 - prod:
-  - In order to build this project, you need to run the Makefile for both frontend and backend components of this project.  
+  - In order to build this project, you will need to run .  
 - tests: 
   - Tests  will be executed through two ways. One, by visually checking deployed copy from Amazon Web Services (AWS). This will be carried through the AWS's Amplify service.                                                        If you need an access for that section please make a request. 
   - The other way to make tests is supported by the Cypress. An example for the tests can be seen [here](https://github.com/timurgordon/good-deed-web/blob/master/cypress/integration/authenticator_spec.js). Cypress will help this project with the visual aid it provides. The test created through this platform will create videos of the test being performed. The previous example test has this [video](https://github.com/timurgordon/good-deed-web/blob/master/cypress/videos/authenticator_spec.js.mp4). 
